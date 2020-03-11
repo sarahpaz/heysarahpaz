@@ -4,7 +4,7 @@ import "./Footer.styles.css"
 const Footer = () => {
   return (
     <div>
-      <p>Footer</p>
+      <p>Created by Sarah Paz, © 2020</p>
     </div>
   )
 }

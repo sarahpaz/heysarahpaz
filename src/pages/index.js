@@ -7,5 +7,6 @@ export default () => (
   <div>
     <Navbar />
     <HomePage />
+    <Footer />
   </div>
 )
