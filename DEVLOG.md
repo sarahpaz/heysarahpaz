@@ -2,7 +2,7 @@
 ## Personal website build with Gatsby
 
 ### March 10, 2020
-- [ ] Scaffold pages
+- [x] Scaffold pages
 - [ ] Navbar
 
 ### March 11, 2020
