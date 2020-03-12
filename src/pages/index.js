@@ -1,11 +1,11 @@
 import React from "react"
 import HomePage from "../components/Home/HomePage.component"
-import Navbar from "../components/Navbar/Navbar.component"
 import Footer from "../components/Footer/Footer.component"
+import Header from "../components/Header/Header.component"
 
 export default () => (
   <div>
-    <Navbar />
+    <Header />
     <HomePage />
     <Footer />
   </div>
