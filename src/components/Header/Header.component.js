@@ -1,8 +1,9 @@
 import React from "react"
 import "./Header.styles.css"
+import Nav from "../Nav/Nav.component"
 
 const Header = () => {
-  return <div>About Blog Experience Contact</div>
+  return <Nav />
 }
 
 export default Header
