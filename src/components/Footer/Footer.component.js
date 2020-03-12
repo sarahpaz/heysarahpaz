@@ -1,7 +1,7 @@
 import React from "react"
 import "./Footer.styles.css"
 
-const Header = () => {
+const Footer = () => {
   return (
     <div>
       <p>Created by Sarah Paz, © 2020</p>
@@ -9,4 +9,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Footer
