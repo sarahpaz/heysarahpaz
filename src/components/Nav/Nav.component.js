@@ -1,25 +1,15 @@
 import React from "react"
 import "./Nav.styles.css"
-import { Link } from "gatsby"
+import { Link } from "gatsby-theme-material-ui"
+import Typography from "@material-ui/core/Typography"
 
 const Nav = () => {
   return (
     <div>
-      <p>Navbar</p>
-      <ul>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <Link to="/experience">Experience</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
+      Hi
+      <Typography>
+        Check out my <Link to="/blog">blog</Link>!
+      </Typography>
     </div>
   )
 }
