@@ -3,7 +3,11 @@ import "./Header.styles.css"
 import Nav from "../Nav/Nav.component"
 
 const Header = () => {
-  return <Nav />
+  return (
+    <div className="header-container">
+      <Nav />
+    </div>
+  )
 }
 
 export default Header
