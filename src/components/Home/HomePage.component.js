@@ -1,6 +1,8 @@
 import React from "react"
 import "./HomePage.styles.css"
-import { Button } from "@material-ui/core"
+import Button from "@material-ui/core/Button"
+import Typography from "@material-ui/core/Typography"
+
 const HomePage = () => {
   return (
     <div>
@@ -8,10 +10,7 @@ const HomePage = () => {
       <div>About</div>
       <div>Blog</div>
       <div>Experience</div>
-      <div>Contact</div>
-      <Button variant="contained" color="primary">
-        Hello World
-      </Button>
+      <Button>Contact</Button>
     </div>
   )
 }
