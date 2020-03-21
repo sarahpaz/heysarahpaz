@@ -9,9 +9,8 @@
 ### March 12, 2020
 
 - [x] Install Material-ui
+
+### March 21, 2020
 - [ ] Navbar
-
-### March 13, 2020
-
 - [ ] Hero
 - [ ] About page
