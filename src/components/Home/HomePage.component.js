@@ -1,7 +1,6 @@
 import React from "react"
 import "./HomePage.styles.css"
 import Button from "@material-ui/core/Button"
-import Typography from "@material-ui/core/Typography"
 
 const HomePage = () => {
   return (
