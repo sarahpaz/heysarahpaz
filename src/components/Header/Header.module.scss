@@ -1,0 +1,17 @@
+$brandColor: #8448d3;
+.container {
+  background-color: $brandColor;
+}
+
+a {
+  color: #fff;
+}
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+}
