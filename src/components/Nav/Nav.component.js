@@ -1,14 +1,25 @@
 import React from "react"
 import "./Nav.styles.css"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const Nav = () => {
   return (
     <nav>
       <ul>
-        <li>About</li>
-        <li>Blog</li>
-        <li>Experience</li>
-        <li>Contact</li>
+        <li>
+          <AnchorLink to="/#about" tite="About">
+            About
+          </AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#blog">Blog</AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#experience">Experience</AnchorLink>
+        </li>
+        <li>
+          <AnchorLink to="/#contact">Contact</AnchorLink>
+        </li>
       </ul>
     </nav>
   )
