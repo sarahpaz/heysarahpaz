@@ -17,6 +17,7 @@
     "@material-ui/core": "^4.9.5",
     "@material-ui/styles": "^4.9.0",
     "gatsby": "^2.19.7",
+    "gatsby-plugin-anchor-links": "^1.1.1",
     "gatsby-plugin-material-ui": "^2.1.6",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
