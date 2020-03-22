@@ -1,12 +1,11 @@
 import React from "react"
-import HomePage from "../components/Home/HomePage.component"
-import Footer from "../components/Footer/Footer.component"
-import Header from "../components/Header/Header.component"
+import Layout from "../components/Layout/Layout.component"
+import Homepage from "../components/Homepage/Homepage.component"
 
-export default () => (
-  <div>
-    <Header />
-    <HomePage />
-    <Footer />
-  </div>
-)
+export default () => {
+  return (
+    <Layout>
+      <Homepage />
+    </Layout>
+  )
+}
