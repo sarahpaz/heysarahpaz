@@ -11,6 +11,11 @@
 - [x] Install Material-ui
 
 ### March 21, 2020
-- [ ] Navbar
-- [ ] Hero
-- [ ] About page
+
+- [x] Navbar links
+- [x] Install scss plugin
+
+### March 22, 2020
+
+- [ ] Style Navbar
+- [ ] Style Hero
