@@ -1,5 +1,5 @@
 import React from "react"
-import "./Section.styles.scss"
+// import sectionStyles from "./Section.module.scss"
 
 const Section = props => {
   return <div>{props.children}</div>
