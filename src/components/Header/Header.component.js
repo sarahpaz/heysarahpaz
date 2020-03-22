@@ -5,8 +5,7 @@ import Nav from "../Nav/Nav.component"
 const Header = () => {
   return (
     <header className={headerStyles.container}>
-      <h1>heysarahpaz.</h1>
-      <Nav />
+      <Nav></Nav>
     </header>
   )
 }
