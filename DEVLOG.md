@@ -17,5 +17,11 @@
 
 ### March 22, 2020
 
-- [ ] Style Navbar
+- [x] Style Navb
+  - [ ] Need to add hamburger menu
+- [ ] Style Hero
+
+### March 23, 2020
+
+- [ ] Add hanburger menu for Nav
 - [ ] Style Hero
