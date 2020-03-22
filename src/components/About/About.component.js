@@ -3,7 +3,7 @@ import "./About.styles.css"
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <p>
         Full Stack Web Developer with5+ years E-Commerce experienceand a
         background in Marketing.Extremely motivated and alwayslearning.

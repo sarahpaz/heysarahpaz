@@ -3,7 +3,7 @@ import "./Footer.styles.css"
 
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
       <p>Created by Sarah Paz, © 2020</p>
     </div>
   )
