@@ -1,10 +1,9 @@
 import React from "react"
-import "./Footer.styles.css"
 
 const Footer = () => {
   return (
     <div id="contact">
-      <p>Created by Sarah Paz, © 2020</p>
+      <p>© 2020 Sarah Paz. All Rights Reserved. </p>
     </div>
   )
 }

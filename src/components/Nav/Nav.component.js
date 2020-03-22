@@ -1,5 +1,5 @@
 import React from "react"
-import "./Nav.styles.css"
+import "./Nav.styles.scss"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const Nav = () => {
