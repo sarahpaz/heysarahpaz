@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about" className="about-container">
       <p>
-        Full Stack Web Developer with5+ years E-Commerce experienceand a
+        Full Stack Web Developer with 5+ years E-Commerce experienceand a
         background in Marketing.Extremely motivated and alwayslearning.
         Passionate problem solverand creative thinker ready to take onany
         challenge.
