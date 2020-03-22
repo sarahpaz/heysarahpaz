@@ -5,5 +5,5 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-anchor-links`],
+  plugins: [`gatsby-plugin-anchor-links`, `gatsby-plugin-sass`],
 }
