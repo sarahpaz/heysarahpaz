@@ -4,11 +4,10 @@ import { makeStyles } from "@material-ui/core/styles"
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    background: "#999",
   },
 }))
 
-const Section = props => {
+const Section = () => {
   const classes = useStyles()
 
   return (
