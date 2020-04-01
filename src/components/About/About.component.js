@@ -8,11 +8,6 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
   },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-  },
 }))
 
 const About = () => {
@@ -22,7 +17,7 @@ const About = () => {
     <div id="about" className={classes.root}>
       <Container>
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={8}>
+          <Grid item xs={12} md={8}>
             <div className={classes.paper}>
               Refuse to drink water except out of someone's glass i could pee on
               this if i had the energy so leave dead animals as gifts poop on
@@ -51,7 +46,7 @@ const About = () => {
               purr when you are asleep.{" "}
             </div>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} md={4}>
             <div className={classes.paper}>
               <img src="https://www.placehold.it/300x300"></img>
             </div>
