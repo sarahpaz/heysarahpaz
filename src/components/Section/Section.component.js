@@ -1,8 +1,21 @@
 import React from "react"
-// import sectionStyles from "./Section.module.scss"
+import { makeStyles } from "@material-ui/core/styles"
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1,
+    background: "#999",
+  },
+}))
 
 const Section = props => {
-  return <div>{props.children}</div>
+  const classes = useStyles()
+
+  return (
+    <div className={classes.root}>
+      <div>{props.children}</div>
+    </div>
+  )
 }
 
 export default Section
