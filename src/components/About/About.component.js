@@ -7,6 +7,7 @@ import Container from "@material-ui/core/Container"
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
+    background: "purple",
   },
 }))
 
@@ -48,7 +49,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} md={4}>
             <div className={classes.paper}>
-              <img src="https://www.placehold.it/300x300"></img>
+              <img src="https://www.placehold.it/300x300" alt="Headshot"></img>
             </div>
           </Grid>
         </Grid>

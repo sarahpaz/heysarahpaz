@@ -1,20 +1,16 @@
-import React from "react"
-import { makeStyles } from "@material-ui/core/styles"
+import React, { Component } from "react"
+// import Container from "@material-ui/core/Container"
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-  },
-}))
-
-const Section = () => {
-  const classes = useStyles()
-
-  return (
-    <div className={classes.root}>
-      <div>{props.children}</div>
-    </div>
-  )
+class Section extends Component {
+  render() {
+    return (
+      <div>
+        {/* <Container> */}
+        <div>{this.props.children}</div>
+        {/* </Container> */}
+      </div>
+    )
+  }
 }
 
 export default Section
