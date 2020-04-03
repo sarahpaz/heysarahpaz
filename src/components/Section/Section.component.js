@@ -1,16 +1,15 @@
-import React, { Component } from "react"
-// import Container from "@material-ui/core/Container"
+import React from "react"
 
-class Section extends Component {
-  render() {
-    return (
-      <div>
-        {/* <Container> */}
-        <div>{this.props.children}</div>
-        {/* </Container> */}
+import "./Section.module.scss"
+
+export default (props) => {
+  const className = `section ${props.colorClass}`
+
+  return (
+    <div id={props.id} className={className}>
+      <div className='max-width'>
+        {props.children}
       </div>
-    )
-  }
+    </div>
+  )
 }
-
-export default Section
