@@ -9,7 +9,9 @@ import Experience from "../Experience/Experience.component"
 export default () => {
   return (
     <div>
-      <Hero />
+      <Section colorClass="hero-container">
+        <Hero />
+      </Section>
       <Section colorClass="about-container" id="about">
         <About />
       </Section>
