@@ -6,21 +6,19 @@ import About from "../About/About.component"
 import Blog from "../Blog/Blog.component"
 import Experience from "../Experience/Experience.component"
 
-const Homepage = () => {
+export default () => {
   return (
     <div>
       <Hero />
-      <Section>
+      <Section colorClass="about-container" id="about">
         <About />
       </Section>
-      <Section>
+      <Section colorClass="blog-container" id="blog">
         <Blog />
       </Section>
-      <Section>
+      <Section colorClass="experience-container" id="experience">
         <Experience />
       </Section>
     </div>
   )
 }
-
-export default Homepage
