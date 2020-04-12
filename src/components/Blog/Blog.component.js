@@ -1,15 +1,14 @@
 import React from "react"
 import "./Blog.styles.scss"
 
+import BlogPost from "../BlogPost/BlogPost.component"
+
 const Blog = () => {
   return (
     <>
-      <h2>Title</h2>
-      <p>Description</p>
-      <h2>Title</h2>
-      <p>Description</p>
-      <h2>Title</h2>
-      <p>Description</p>
+      <BlogPost />
+      <BlogPost />
+      <BlogPost />
     </>
   )
 }
